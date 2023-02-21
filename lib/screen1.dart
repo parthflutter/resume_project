@@ -53,7 +53,7 @@ TextEditingController   Education= TextEditingController();
 TextEditingController   Hobby= TextEditingController();
 TextEditingController   Interest= TextEditingController();
 TextEditingController   AboutUs= TextEditingController();
-
+String photo = "assets/images/2billgates.jpg";
 
   @override
   Widget build(BuildContext context) {
@@ -598,7 +598,7 @@ TextEditingController   AboutUs= TextEditingController();
               modeldata m1 = modeldata(name:Name.text,surname: Surname.text,Fathername: Fathername.text,Email: Email.text,Contact:Contact.text,
                 EnterExperience:EnterExperience.text,EnterProffesion:EnterProffesion.text,Enterlastcompany:Enterlastcompany.text,Skills:Skills.text,
                   Language:Language.text,Gender:Gender.text,City:City.text,DateofBirth:DateofBirth.text,WriteAboutYourself:WriteAboutYourself.text,
-                  Photo:Photo.text, AdditionalInfo:AdditionalInfo.text,SomethingaboutYourLastCompany:SomethingaboutYourLastCompany.text,Education:Education.text,
+                  Photo:photo, AdditionalInfo:AdditionalInfo.text,SomethingaboutYourLastCompany:SomethingaboutYourLastCompany.text,Education:Education.text,
                   Hobby:Hobby.text,Interest:Interest.text,AboutUs:AboutUs.text);
 
                  Navigator.pushNamed(context,"second",arguments: m1);
